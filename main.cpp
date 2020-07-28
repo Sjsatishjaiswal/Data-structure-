@@ -14,7 +14,7 @@ struct node//yeha ham structure design kiya h
     char date[30];
     node *prev,*next;//ye node ka 2 pointer h, es m ham pahley or dusarey lin ko rakhey gai
 
-     };
+  };
 class employ //yeha ham employ nam ka funtion bnaya h
 {
      private:
@@ -42,7 +42,7 @@ class employ //yeha ham employ nam ka funtion bnaya h
           node * newer=new node;
           cout<<"\n\t\t Enter the Employee ID:"<<endl;
           cin>>newer->id;
-          //fflush(stdin);
+
           cout<<"\n\t\t Enter the employee Full name :"<<endl;
           cin.getline(newer->name,50);
          cin>>newer->name;
@@ -54,28 +54,28 @@ class employ //yeha ham employ nam ka funtion bnaya h
           cout<<"\n\t\t Enter the Qualification :"<<endl;
           cin.getline(newer->qua,30);
           cin>>newer->qua;
-          //fflush(stdin);
+
           cout<<"\n\t\t Enter the Address of Employee :"<<endl;
           //cin.getline(newer->addrs ,50);
           cin>>newer->addrs;
-          //fflush(stdin);
+
           cout<<"\n\t\tEnter the City:"<<endl;
          // cin.getline(newer->city,30);
           cin>>newer->city;
-          //fflush(stdin);
+
           cout<<"\n\t\tEnter the employee Job title :"<<endl;
          // cin.getline(newer->jobtitle,50);
          cin>>newer->jobtitle;
-          //fflush(stdin);
+
           cout<<"\n\t\tEnter the Employee the Salary:"<<endl;
           cin>>newer->salry;
 
-         // fflush(stdin);
+
           cout<<"\n\t\t Enter the start Date :"<<endl;
           //cin.getline(newer->date,30);
           cin>>newer->date;
 
-         // fflush(stdin);
+
 
           newer->next=head;
           newer->prev=NULL;
@@ -115,40 +115,40 @@ class employ //yeha ham employ nam ka funtion bnaya h
 
                  }
                  node  *newer=new node;
-                // fflush(stdin);
+
                  cout<<"\n\t\t\ Enter the Employee ID:"<<endl;
                  cin>>newer->id;
-                // fflush(stdin);
+
                  cout<<"\n\t\t\ Enter the employee Full name :"<<endl;
                  cin.getline(newer->name,50);
                  cin>>newer->name;
 
-         // fflush(stdin);
+
                  cout<<"\n\t\t\ Enter the Qualification :"<<endl;
                  cin.getline(newer->qua,30);
                  cin>>newer->qua;
-         // fflush(stdin);
+
                  cout<<"\n\t\t\ Enter the Address of Employee :"<<endl;
                   cin.getline(newer->addrs ,50);
                   cin>>newer->addrs;
-        //  fflush(stdin);
+
                  cout<<"\n\t\t\ Enter the City:"<<endl;
                  cin.getline(newer->city,30);
                  cin>>newer->city;
 
-         // fflush(stdin);
+
                  cout<<"\n\t\t\ Enter the employee Job title :"<<endl;
                  cin.getline(newer->jobtitle,50);
                  cin>>newer->jobtitle;
 
-         // fflush(stdin);
+
                  cout<<"\n\t\t\Enter the Employee the Salary:"<<endl;
                 cin>>newer->salry;
-          //fflush(stdin);
+
                 cout<<"\n\t\t\ Enter the state Date :"<<endl;
                 cin.getline(newer->date,30);
                 cin>>newer->date;
-          //fflush(stdin);
+
                   newer->next=NULL;
                   temp->next=newer;
                   newer->prev=temp;
@@ -187,7 +187,7 @@ class employ //yeha ham employ nam ka funtion bnaya h
           // bool flag=false;
             //node *temp=head;
              node *temp=head;
-          //  bool flag=false;
+
 
             node *p;
             while(temp!=NULL)
@@ -199,37 +199,37 @@ class employ //yeha ham employ nam ka funtion bnaya h
 
 
                     node *newer=new node ;
-                    //fflush(stdin);
+
                     cout<<"\n\tEnter the Employee ID:"<<endl;
                     cin>>newer->id;
                     cout<<"\n\t\t Enter the employee Full name :"<<endl;
                     cin.getline(newer->name,50);
                     cin>>newer->name;
-          //fflush(stdin);
+
                     cout<<"\n\t\t Enter the Qualification :"<<endl;
                     cin.getline(newer->qua,30);
                     cin>>newer->qua;
-          //fflush(stdin);
+
                     cout<<"\n\t\t Enter the Address of Employee :"<<endl;
                     cin.getline(newer->addrs ,50);
                     cin>>newer->addrs;
-        //  fflush(stdin);
+
                     cout<<"\n\t\t Enter the City:"<<endl;
                     cin.getline(newer->city,30);
                     cin>>newer->city;
-         // fflush(stdin);
+
                     cout<<"\n\t\t Enter the employee Job title :"<<endl;
                     cin.getline(newer->jobtitle,50);
                     cin>>newer->jobtitle;
-          //fflush(stdin);
+
                     cout<<"\n\t\tEnter the Employee the Salary:"<<endl;
                     cin>>newer->salry;
-         // fflush(stdin);
+
                     cout<<"\n\t\t Enter the start Date :"<<endl;
                     cin.getline(newer->date,30);
                     cin>>newer->date;
 
-          //fflush(stdin);
+
 
                    if (temp->next!=NULL)
                    {
@@ -296,36 +296,36 @@ class employ //yeha ham employ nam ka funtion bnaya h
 
                 {
                     node *newer=new node ;
-                   // fflush(stdin);
+
                     cout<<"\n\tEnter the Employee ID:"<<endl;
                     cin>>newer->id;
                     cout<<"\n\t\t Enter the employee Full name :"<<endl;
                     cin.getline(newer->name,50);
                     cin>>newer->name;
-          //fflush(stdin);
+
                     cout<<"\n\t\t Enter the Qualification :"<<endl;
                     cin.getline(newer->qua,30);
                     cin>>newer->qua;
-         // fflush(stdin);
+
                     cout<<"\n\t\t Enter the Address of Employee :"<<endl;
                     cin.getline(newer->addrs ,50);
                     cin>>newer->addrs;
-         // fflush(stdin);
+
                     cout<<"\n\t\t Enter the City:"<<endl;
                     cin.getline(newer->city,30);
                     cin>>newer->city;
-          //fflush(stdin);
+
                     cout<<"\n\t\t Enter the employee Job title :"<<endl;
                     cin.getline(newer->jobtitle,50);
                     cin>>newer->jobtitle;
-          //fflush(stdin);
+
                     cout<<"\n\t\tEnter the Employee the Salary:"<<endl;
                     cin>>newer->salry;
-         // fflush(stdin);
+
                     cout<<"\n\t\t\ Enter the start Date :"<<endl;
                     cin.getline(newer->date,30);
                     cin>>newer->date;
-         // fflush(stdin);
+
 
                    if (temp->next!=NULL)
                    {
@@ -563,39 +563,39 @@ class employ //yeha ham employ nam ka funtion bnaya h
                            if (temp->id==val)
                             {
 
-                                 //fflush(stdin);
+
                                    cout<<"\n\tEnter the Employee ID:"<<endl;
                                    cin>>temp->id;
-                                  // fflush(stdin);
+
                                    cout<<"\n\t\tEnter the employee Full name :"<<endl;
                                    cin.getline(temp->name,50);
                                    cin>>temp->name;
-                                   //fflush(stdin);
+
                                    cout<<"\n\t\t Enter the Qualification :"<<endl;
                                    cin.getline(temp->qua,30);
                                    cin>>temp->qua;
 
-                                  // fflush(stdin);
+
                                    cout<<"\n\t\t Enter the Address of Employee :"<<endl;
                                    cin.getline(temp->addrs ,50);
                                    cin>>temp->addrs;
-                                  // fflush(stdin);
+
                                    cout<<"\n\t\t Enter the City:"<<endl;
                                    cin.getline(temp->city,30);
                                    cin>>temp->city;
-                                  // fflush(stdin);
+
                                    cout<<"\n\t\t Enter the employee Job title :"<<endl;
                                    cin.getline(temp->jobtitle,50);
                                    cin>>temp->jobtitle;
-                                  //fflush(stdin);
+
                                   cout<<"\n\t\t\Enter the Employee the Salary:"<<endl;
                                   cin>>temp->salry;
-                                 // fflush(stdin);
+
                                   cout<<"\n\t\t\ Enter the state Date :"<<endl;
                                   cin.getline(temp->date,30);
                                   cin>>temp->date;
 
-                                 //  fflush(stdin);
+
                             }
                             temp=temp->next;
                         }
@@ -639,7 +639,7 @@ int main()
                 cout<<"\n\tDo you want to go main menu?"<<endl;
                  cout<<"\n\t press Y:--";
                 cin>>ch;
-                //fflush(stdin);
+
                 if (ch=='Y'||ch=='y')//yeha ham store kiya hua variable ko condition lga k chek karegey
                {
                    goto x2;
@@ -660,7 +660,7 @@ int main()
                 cout<<"\n\tDo you want to go main menu?"<<endl;
                  cout<<"\n\t press Y:-";
                 cin>>ch;
-               // fflush(stdin);
+
                 if (ch=='Y'||ch=='y')//yeha ham store kiya hua variable ko condition lga k chek karegey
                {
                    goto x2;
@@ -682,7 +682,7 @@ int main()
               cout<<"\n\tDo you want to go main menu?"<<endl;
                cout<<"\n\t press Y:--";
                 cin>>ch;
-                //fflush(stdin);
+
                 if (ch=='Y'||ch=='y')//yeha ham store kiya hua variable ko condition lga k chek karegey
                {
                    goto x2;
@@ -703,7 +703,7 @@ int main()
               cout<<"\n\tDo you want to go main menu?"<<endl;
                cout<<"\n\t press Y:--";
                 cin>>ch;
-              //  fflush(stdin);
+
                 if (ch=='Y'||ch=='y')//yeha ham store kiya hua variable ko condition lga k chek karegey
                {
                    goto x2;
@@ -713,7 +713,7 @@ int main()
                  else
                  {
                      //exit)(1);
-                    // break;
+
                     return 0;
                  }
 
@@ -735,7 +735,7 @@ int main()
               cout<<"\n\tDo you want to go main menu?"<<endl;
                cout<<"\n\t press Y:--";
                 cin>>ch;
-              //  fflush(stdin);
+
                 if (ch=='Y'||ch=='y')//yeha ham store kiya hua variable ko condition lga k chek karegey
                {
                    goto x2;
@@ -756,7 +756,7 @@ int main()
               cout<<"\n\tDo you want to go main menu?"<<endl;
               cout<<"\n\t press Y:--";
                 cin>>ch;
-              //  fflush(stdin);
+
                 if (ch=='Y'||ch=='y')//yeha ham store kiya hua variable ko condition lga k chek karegey
                {
                    goto x2;
@@ -777,7 +777,7 @@ int main()
               cout<<"\n\t press Y:--";
                 cin>>ch;
 
-               // fflush(stdin);
+
                 if (ch=='Y'||ch=='y')//yeha ham store kiya hua variable ko condition lga k chek karegey
                {
                    goto x2;
@@ -797,7 +797,7 @@ int main()
               cout<<"\n\tDo you want to go main menu?"<<endl;
               cout<<"\n\t press Y:--";
                 cin>>ch;
-               // fflush(stdin);
+
                 if (ch=='Y'||ch=='y')//yeha ham store kiya hua variable ko condition lga k chek karegey
                {
                    goto x2;
